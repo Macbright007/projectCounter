@@ -5,12 +5,10 @@ const Parent = () => {
     const [counter, setCounter] = useState(0)
 
     const handleIncrement = () => {
-        counter=counter + 1;
-        setCounter(counter)
+        setCounter(counter + 1)
     }
     const handleDecrement = () => {
-        counter=counter - 1;
-        setCounter(counter)
+        setCounter(counter - 1)
     }
 
     return (
